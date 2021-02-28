@@ -41,40 +41,40 @@ const addEmployee = () => {
         {
             name: "name",
             type: "input",
-            message: "Please enter first name"
+            message: "First Name?"
         },
         {
             name: "id",
             type: "input",
-            message: "Please enter your employee id"
+            message: "Employee ID?"
         },
         {
             name: "email",
             type: "input",
-            message: "Please enter your employee email address "
+            message: "Email? "
         },
         {
             name: "role",
             type: "list",
-            message: "Please select your company role",
+            message: "Role",
             choices: ["Engineer", "Intern", "Manager"]
         },
         {
             name: "github",
             type: "input",
-            message: "Please enter your Github username",
+            message: "Username?",
             when: (answer) => answer.role === "Engineer"
         },
         {
             name: "school",
             type: "input",
-            message: "Please enter name of your school / bootcamp",
+            message: "School?",
             when: (answer) => answer.role === "Intern"
         },
         {
             name: "officeNumber",
             type: "input",
-            message: "Please enter your office number",
+            message: "Phone Number?",
             when: (answer) => answer.role === "Manager"
         },
     ]).then((answer) => {

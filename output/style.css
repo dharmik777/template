@@ -1,19 +1,13 @@
-body {
-    background-color: Black;
-}
 .jumbotron {
     background-color: Purple;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
-}
-.card-header {
-    background-color: Yellow;
-    color: Black
+    font-family: "ocr A";
 }
 .card-body {
     background-color: Purple;
+    font-family: "ocr AS"
 }
-.list-group-item {
-    background-color: white;
-    color: black
+body {
+    background-color: Black;
+    font-family: "ocr A";
 }

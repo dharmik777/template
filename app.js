@@ -41,7 +41,7 @@ const addEmployee = () => {
         {
             name: "name",
             type: "input",
-            message: "First Name?"
+            message: "Name?"
         },
         {
             name: "id",
